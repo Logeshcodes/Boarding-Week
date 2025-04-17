@@ -1,0 +1,8 @@
+
+Undefined = declared before Initialization .
+Not defined = not Initialization yet .
+
+
+Js is an loosely-typed language .
+
+for a variable I can gave number , later i can changed that string , boolean , etc .

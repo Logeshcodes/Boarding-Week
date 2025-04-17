@@ -1,0 +1,6 @@
+1 ) JavaScript everything runs inside the execution context 
+
+2 ) JS is an synchronous & single-threaded language 
+
+=> Synchronous - Execute one comment at a time 
+=> Single-Threaded - Follow order , Once finish the execution of current line then it moves to next line.

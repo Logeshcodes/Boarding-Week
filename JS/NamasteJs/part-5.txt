@@ -1,0 +1,5 @@
+ 
+ 
+ Whenever we create a execution context , ( this )  is created along with it .
+
+ In the global level , ( this ) points to global object. That is the window , in case of browser .

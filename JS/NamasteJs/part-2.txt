@@ -1,0 +1,17 @@
+If we run any js code , a brand new execution context will be created.
+
+It is divided into two phases:
+
+- Memory phase | variable environment.
+- Code execution phase | thread of execution
+
+First create the memory phase: 
+
+For all the variables with a value of " Undefined " and functions as a key: value paris 
+
+---
+
+Whenever the new function invoked a brand new execution context will be created. 
+
+Then , how it manage these execution context:
+=> Through call stack.
