@@ -2,19 +2,22 @@ import React, { useRef, useState } from 'react'
 
 const Ref = () => {
 
-    const [ text , setText] = useState('');
+  const inputRef = useRef();
+  const [message , setMessage] = useState('')
 
-    const inputRef = useRef();
+  function handleShow(){
+      setMessage(inputRef.current.value)
+  }
 
-    function showHandle(){
-        setText(inputRef.current.value);
-    }
 
   return (
     <>
-    <h3>Text value : {text}</h3>
-    <input type="text" ref={inputRef}  />
-    <button onClick={()=>showHandle()}>submit</button>
+    <input type="text"  placeholder='Enter a Text' ref={inputRef}/>
+
+    <button onClick={handleShow}>show</button>
+
+    <h3>{message}</h3>
+
     </>
   )
 }
