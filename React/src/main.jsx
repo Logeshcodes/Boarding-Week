@@ -3,11 +3,11 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 
 
-import State from './Hooks/State.jsx'
+import TodoList from './Particals/TodoList'
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <State />
-  </StrictMode>,
+    <TodoList />
+  </StrictMode>
 )

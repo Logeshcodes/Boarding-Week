@@ -3,21 +3,20 @@ import Child from './Child'
 
 const Parent = () => {
 
+
+
   return (
     <>
-    
-    <Child
-
-        render={ (count , increment)=>{
-            return(
-                <>
-                <div>Count is : {count}</div>
-                <button onClick={increment}>Increment</button>
-                </>
-            )
-        }}
-    
-    />
+      <Child  render = {(count , increment) =>(
+      
+        <>
+            <div>Count is : {count}</div>
+            <button onClick={increment}>+</button>
+        </>
+      )}
+      
+      
+      />
     </>
   )
 }
